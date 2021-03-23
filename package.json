@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/s-satsangi/sandboxChat-back.git",
+    "type": "git"
+  },
+  "author": "s-satsangi <s.satsangi@gmail.com>",
+  "license": "MIT"
+}

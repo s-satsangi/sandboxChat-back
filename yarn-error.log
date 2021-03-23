@@ -1,0 +1,36 @@
+Arguments: 
+  /home/sharad/.nvm/versions/node/v15.6.0/bin/node /usr/share/yarn/bin/yarn.js init -Y
+
+PATH: 
+  /home/sharad/.rbenv/plugins/ruby-build/bin:/home/sharad/.rbenv/shims:/home/sharad/.rbenv/bin:/home/sharad/.nvm/versions/node/v15.6.0/bin:/home/sharad/.rvm/gems/ruby-2.6.1/bin:/home/sharad/.rvm/gems/ruby-2.6.1@global/bin:/usr/share/rvm/rubies/ruby-2.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Dwimperl/perl/bin:/mnt/c/Dwimperl/perl/site/bin:/mnt/c/Dwimperl/c/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Ruby26-x64/bin:/mnt/c/Users/ssats/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ssats/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ssats/AppData/Local/GitHubDesktop/bin:/snap/bin:/usr/share/rvm/bin:/home/sharad/.rvm/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  15.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:137009:13)
+      at Interface.emit (node:events:379:20)
+      at Interface._ttyWrite (node:readline:910:16)
+      at ReadStream.onkeypress (node:readline:235:10)
+      at ReadStream.emit (node:events:379:20)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:readline:1179:36)
+      at ReadStream.emit (node:events:379:20)
+      at addChunk (node:internal/streams/readable:313:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
