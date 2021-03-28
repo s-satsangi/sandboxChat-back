@@ -14,7 +14,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 app.use(router);
-app.use(cors({ origin: "https://yacapp.netlify.app/" }));
+app.use(cors());
 
 io.on("connection", (socket) => {
   socket.on("join", ({ name, room }, callback) => {
